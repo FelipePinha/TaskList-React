@@ -1,0 +1,67 @@
+.task-container {
+    width: 100%;
+    margin-top: 20px;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.task-container strong {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.icons #done {
+    border: 2px solid;
+    border-color: #50C878;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #50C878;
+    color: #eee;
+    cursor: pointer;
+}
+
+.icons #delete {
+    border: 2px solid;
+    border-color: #FF3131;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FF3131;
+    color: #eee;
+    cursor: pointer;
+}
+
+.task-container input[type='checkbox'] {
+    display: none;
+}
+
+#check {
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    background-color: #50C878;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    transition: 200ms;
+}
+
+.task-container input[type='checkbox']:checked ~ #check {
+    transform: translateX(0);
+}
