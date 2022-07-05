@@ -1,7 +1,7 @@
 # TaskList-React
 
 <div>
-  ## Tecnologias usadas
+  ### Tecnologias usadas
   
   <ul>
     <li>React js</li>
