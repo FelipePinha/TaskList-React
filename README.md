@@ -20,6 +20,6 @@
   
   <p>
     Este é um projeto simples, feito com o objetivo de de estudar a base do React. 
-    Aqui pude ter um melhor entendimento sobre os componentes React, além de Hooks como o useState 
+    Aqui pude ter um melhor entendimento sobre os componentes React, além de Hooks como o useState.
   </p>
 </div>
