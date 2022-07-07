@@ -1,10 +1,7 @@
 
 <h1 align='center'>TaskList - React</h1>
 
-<div align='center'>
-  <img src='src/assets/toReadMe/TaskListRM-2.png' width='400' heigth='400' />
-  <img src='src/assets/toReadMe/TaskListRM-3.png' width='400' heigth='400' />
-</div>
+![TaskList](https://user-images.githubusercontent.com/50679370/177842214-02339621-6e74-4aa6-b6a2-c41f3851532e.gif)
 
 <br>
 <br>
